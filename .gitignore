@@ -1,52 +1,33 @@
-# Prerequisites
-*.d
-
-# Object files
+*~
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
+*.lo
 *.a
 *.la
-*.lo
+/build*/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# autotools stuff
+/m4/lt*.m4
+/m4/libtool.m4
+/aclocal.m4
+/ltmain.sh
+/install-sh
+/config.guess
+/config.h.in
+/config.sub
+/autom4te.cache/
+/compile
+/configure
+/depcomp
+/missing
+/test-driver
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# automake
+/ar-lib
+Makefile.in
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# cscope and other tags
+/cscope.*
+/GPATH
+/GRTAGS
+/GSYMS
+/GTAGS
