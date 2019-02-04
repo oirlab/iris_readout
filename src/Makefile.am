@@ -10,8 +10,8 @@ dist_man_MANS = iris_readout.8
 ## TODO:5000 ./autogen.sh after modifying this file.
 
 iris_readout_SOURCES  = log.c log.h iris_readout.h iris_readout.c
-iris_readout_CFLAGS   = $(AM_CFLAGS) @JANSSON_CFLAGS@
-iris_readout_LDFLAGS  = $(AM_LDFLAGS) @JANSSON_LIBS@
+iris_readout_CFLAGS   = $(AM_CFLAGS) ##@JANSSON_CFLAGS@
+iris_readout_LDFLAGS  = $(AM_LDFLAGS) ##@JANSSON_LIBS@
 
 ## TODO:2004 Each time you have used `PKG_CHECK_MODULES` macro
 ## TODO:2004 in `configure.ac`, you get two variables that
