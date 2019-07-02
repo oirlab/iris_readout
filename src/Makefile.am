@@ -9,7 +9,7 @@ dist_man_MANS = iris_readout.8
 ## TODO:5000 Automake will find dependencies by itself. Run
 ## TODO:5000 ./autogen.sh after modifying this file.
 
-iris_readout_SOURCES  = log.c log.h iris_readout.h iris_readout.c
+iris_readout_SOURCES  = log.c log.h iris_readout.h iris_readout.c drsrop.c drsrop.h
 iris_readout_CFLAGS   = $(AM_CFLAGS) ##@JANSSON_CFLAGS@
 iris_readout_LDFLAGS  = $(AM_LDFLAGS) ##@JANSSON_LIBS@
 

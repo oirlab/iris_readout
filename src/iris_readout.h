@@ -24,6 +24,7 @@
 
 #include "log.h"
 
+
 #include <stdlib.h>
 
 /* TODO:5001 Declare here functions that you will use in several files. Those
@@ -31,4 +32,6 @@
  * TODO:5001 functions should.
  */
 
+#include "drsrop.h"
+#include "fitsio.h"
 #endif
