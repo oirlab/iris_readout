@@ -66,6 +66,7 @@ AC_CACHE_SAVE
 ## TODO:2003 Add the dependencies of your project here.
 AC_SEARCH_LIBS([pow], [m])
 AC_SEARCH_LIBS([ffopentest], [cfitsio])
+AC_SEARCH_LIBS([_cmocka_run_group_tests],[cmocka])
 ## PKG_CHECK_MODULES([JANSSON], [jansson >= 2.1])
 
 AC_CACHE_SAVE
