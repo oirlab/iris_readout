@@ -20,7 +20,7 @@ static void first_test(void **state) {
 	int *pix;
 	int time[4] = {0,4,8,12};
 	float *output;
-	char *filename = "../../data/sample_ramp.fits";
+	char *filename = "../data/sample_ramp.fits";
 	
 	fpixel[0]=1;
 	fpixel[1]=1;
