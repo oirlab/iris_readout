@@ -33,5 +33,5 @@
  */
 
 #include "drsrop.h"
-#include "fitsio.h"
+#include "cfitsio/fitsio.h"
 #endif
