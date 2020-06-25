@@ -3,7 +3,7 @@
 #include <setjmp.h>
 #include <stdint.h>
 #include <cmocka.h>
-#include "cfitsio/fitsio.h"
+#include "fitsio.h"
 #include "iris_readout.h"
 /* A test case that does nothing and succeeds. */
 static void null_test_success(void **state) {

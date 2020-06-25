@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "cfitsio/fitsio.h"
+#include "fitsio.h"
 #include <math.h>
 #include <string.h>
 
